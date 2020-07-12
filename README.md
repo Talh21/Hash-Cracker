@@ -49,5 +49,4 @@ Supporterd hash types:
 
 ## Examples
 ![Example](https://user-images.githubusercontent.com/66672445/87256926-6f0a1f80-c49f-11ea-8dd8-efca8114586c.png)
-![Example2](https://user-images.githubusercontent.com/66672445/87256927-70d3e300-c49f-11ea-89a7-d399a972179b.png)
-
+![Example2](https://user-images.githubusercontent.com/66672445/87256963-b0023400-c49f-11ea-937e-095dbdb4b463.png)
