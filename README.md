@@ -14,7 +14,7 @@ Just fill in the file and follow the instructions in the program.
 Have fun!!!
 
 
-# Hash types
+## Hash types
 Supporterd hash types:
 1. MD5
 2. SHA-1
@@ -22,11 +22,11 @@ Supporterd hash types:
 4. SHA-384
 5. SHA-512
 
-# Requirements
+## Requirements
 * [python 3](https://www.python.org/downloads/)
 * [colorama](https://pypi.org/project/colorama/)
 
-# Installation
+## Installation
 1. Clone or downlaod the repository(in CMD):
 
    `git clone https://github.com/Talh21/Hash-Cracker.git`
