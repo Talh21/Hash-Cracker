@@ -48,5 +48,6 @@ Supporterd hash types:
    `python hash_cracker.py`
 
 ## Examples
-![Example](https://user-images.githubusercontent.com/66672445/87256415-0325b800-c49b-11ea-9c60-9bc4d65d4709.png)
-![Example2](https://user-images.githubusercontent.com/66672445/87256619-f6a25f00-c49c-11ea-8050-3f30ed96d92b.png)
+![Example](https://user-images.githubusercontent.com/66672445/87256926-6f0a1f80-c49f-11ea-8dd8-efca8114586c.png)
+![Example2](https://user-images.githubusercontent.com/66672445/87256927-70d3e300-c49f-11ea-89a7-d399a972179b.png)
+
