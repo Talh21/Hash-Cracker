@@ -33,6 +33,6 @@ def is_file_empty():
                 print(f"\n[-] {Fore.RED}Pay attention!{Style.RESET_ALL} your file is empty...\nQuiting!!!")
                 quit()
     except FileNotFoundError:
-        print(f"\n[-] {Fore.RED}Error:{Style.RESET_ALL} File was`nt found... Quitting!!! ")
+        print(f"\n[-] {Fore.RED}Error:{Style.RESET_ALL} File was not found... Quitting!!! ")
         quit()
     return passwords

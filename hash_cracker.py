@@ -25,14 +25,14 @@ def intro():
 
 
 def user_prompt():
-    print('''Chose hash type from the following options:
+    print('''Choose hash type from the following options:
 1.MD5
 2.SHA-1
 3.SHA-256
 4.SHA-384
 5.SHA-512''')
 
-    hash_option = input("\n[*] Chose the hash type: ").lower()
+    hash_option = input("\n[*] Choose the hash type: ").lower()
     while check_if_option_is_valid(hash_option) is False:
         hash_option = input(f"The option: '{hash_option}' is not in the list of the hash types above."
                             "\nTry again or press 'Q' to Exit: ")
@@ -47,7 +47,7 @@ def user_prompt():
 def is_user_wants_to_load_passwords():
     user_choice = input("\n[~] Do you want to load passwords from a file? [YES/NO]\nType your answer: ").lower()
     while check_if_yes_or_no(user_choice) is False:
-        user_choice = input("[-] You can chose only [YES/NO]\nTry again: ")
+        user_choice = input("[-] You can choose only [YES/NO]\nTry again: ")
     if user_choice == "q":
         print("----------------------------------")
         print("\nThank you for using this program (:\nHope to see you soon!")
@@ -63,7 +63,7 @@ def md5():
             if password_converted_to_hash == hash_pass:
                 print(f"{Fore.GREEN}Password is:{Style.RESET_ALL} {guess}")
                 quit()
-        print("\r[-] Sorry, Could`nt find the password in the database.")
+        print("\r[-] Sorry, Could not find the password in the database.")
         quit()
 
     pass_list = is_file_empty()
@@ -72,7 +72,7 @@ def md5():
         if password_converted_to_hash == hash_pass:
             print(f"{Fore.GREEN}Password is:{Style.RESET_ALL} {password}")
             quit()
-    print("\r[-] Sorry, Could`nt find the password in the database.")
+    print("\r[-] Sorry, Could not find the password in the database.")
     quit()
 
 
@@ -83,7 +83,7 @@ def sha1():
             if password_converted_to_hash == hash_pass:
                 print(f"{Fore.GREEN}Password is:{Style.RESET_ALL} {guess}")
                 quit()
-        print("\r[-] Sorry, Could`nt find the password in the database.")
+        print("\r[-] Sorry, Could not find the password in the database.")
         quit()
 
     pass_list = is_file_empty()
@@ -92,7 +92,7 @@ def sha1():
         if password_converted_to_hash == hash_pass:
             print(f"{Fore.GREEN}Password is:{Style.RESET_ALL} {password}")
             quit()
-    print("\r[-] Sorry, Could`nt find the password in the database.")
+    print("\r[-] Sorry, Could not find the password in the database.")
     quit()
 
 
@@ -103,7 +103,7 @@ def sha256():
             if password_converted_to_hash == hash_pass:
                 print(f"{Fore.GREEN}Password is:{Style.RESET_ALL} {guess}")
                 quit()
-        print("\r[-] Sorry, Could`nt find the password in the database.")
+        print("\r[-] Sorry, Could not find the password in the database.")
         quit()
 
     pass_list = is_file_empty()
@@ -112,7 +112,7 @@ def sha256():
         if password_converted_to_hash == hash_pass:
             print(f"{Fore.GREEN}Password is:{Style.RESET_ALL} {password}")
             quit()
-    print("\r[-] Sorry, Could`nt find the password in the database.")
+    print("\r[-] Sorry, Could not find the password in the database.")
     quit()
 
 
@@ -123,7 +123,7 @@ def sha384():
             if password_converted_to_hash == hash_pass:
                 print(f"{Fore.GREEN}Password is:{Style.RESET_ALL} {guess}")
                 quit()
-        print("\r[-] Sorry, Could`nt find the password in the database.")
+        print("\r[-] Sorry, Could not find the password in the database.")
         quit()
 
     pass_list = is_file_empty()
@@ -132,7 +132,7 @@ def sha384():
         if password_converted_to_hash == hash_pass:
             print(f"{Fore.GREEN}Password is:{Style.RESET_ALL} {password}")
             quit()
-    print("\r[-] Sorry, Could`nt find the password in the database.")
+    print("\r[-] Sorry, Could not find the password in the database.")
     quit()
 
 
@@ -143,7 +143,7 @@ def sha512():
             if password_converted_to_hash == hash_pass:
                 print(f"{Fore.GREEN}Password is:{Style.RESET_ALL} {guess}")
                 quit()
-        print("\r[-] Sorry, Could`nt find the password in the database.")
+        print("\r[-] Sorry, Could not find the password in the database.")
         quit()
 
     pass_list = is_file_empty()
@@ -152,7 +152,7 @@ def sha512():
         if password_converted_to_hash == hash_pass:
             print(f"{Fore.GREEN}Password is:{Style.RESET_ALL} {password}")
             quit()
-    print("\r[-] Sorry, Could`nt find the password in the database.")
+    print("\r[-] Sorry, Could not find the password in the database.")
     quit()
 
 
@@ -177,6 +177,3 @@ if __name__ == '__main__':
     print("----------------------------------")
     print("\nThank you for using this program (:\nHope to see you soon!")
     quit()
-
-
-
